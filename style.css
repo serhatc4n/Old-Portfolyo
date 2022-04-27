@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #40514E;
+}
+
+
+div h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: 'Baloo 2', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-family: 'Baloo 2', cursive;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+@media screen and (min-width:1366px) {
+    hr {
+        border: dotted #EAF6F6 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 50px auto 50px auto;
+    }
+
+    .top-container {
+        background-color: #E0EBE8;
+        position: relative;
+        padding-top: 100px;
+    }
+
+    .top-container p {
+        font-size: 30px;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    /* TOP CONTAINER */
+
+    /* MID CONTAINER */
+
+    .mid-container .profile h2 {
+        font-size: 30px;
+        font-family: 'Baloo 2', cursive;
+        color: #66BFBF;
+    }
+
+    .mid-container .profile p {
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+
+    }
+
+    .mid-container .skills h3 {
+        font-size: 30px;
+        font-family: 'Baloo 2', cursive;
+        color: #66BFBF;
+    }
+
+    .mid-container .skills p {
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    /* MID CONTAINER */
+
+    /* BOTTOM CONTAINER */
+
+    .contact-me {
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+        color: #40514E;
+    }
+
+    .bottom-container {
+        background-color: #E0EBE8;
+        padding: 50px 0 20px;
+    }
+
+    .bottom-container a {
+        color: #40514E;
+        font-family: 'Baloo 2', cursive;
+        text-decoration: none;
+        margin: 10px 20px;
+        font-size: 20px;
+    }
+
+    a:hover {
+        color: #EAF6F6;
+    }
+
+    .bottom-container h3 {
+        font-size: 30px;
+        font-family: 'Baloo 2', cursive;
+        color: #40514E;
+    }
+
+    .bottom-container p {
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+    }
+
+
+    .btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Baloo 2', cursive;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background: #30E3CB;
+        background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4ED);
+        background-image: -moz-linear-gradient(top, #30E3CB, #2BC4ED);
+        background-image: -ms-linear-gradient(top, #30E3CB, #2BC4ED);
+        background-image: -o-linear-gradient(top, #30E3CB, #2BC4ED);
+        background-image: linear-gradient(to bottom, #30E3CB, #2BC4ED);
+        text-decoration: none;
+    }
+
+
+
+    /* PICTURES */
+
+    .top-cloud {
+        position: absolute;
+        right: 300px;
+        top: 50px;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        left: 300px;
+        bottom: 300px;
+    }
+
+    .profile-pic {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .skill-pic {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .gaming-pic {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+        float: right;
+        margin-left: 30px;
+    }
+
+    .coding-pic {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+        float: left;
+        margin-right: 30px;
+    }
+
+    /* PICTURES */
+
+    /* MAKE IT %50 */
+
+    .skill-row {
+        width: 50%;
+        margin: 100px auto 100px auto;
+        text-align: left;
+        line-height: 2;
+    }
+}
+
+@media screen and (min-width:960px) and (max-width:1365px) {
+    hr {
+        border: dotted #EAF6F6 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 50px auto 50px auto;
+    }
+
+    .top-container {
+        background-color: #E0EBE8;
+        position: relative;
+        padding-top: 100px;
+    }
+
+    .top-container p {
+        font-size: 30px;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    /* TOP CONTAINER */
+
+    /* MID CONTAINER */
+
+    .mid-container .profile h2 {
+        font-size: 30px;
+        font-family: 'Baloo 2', cursive;
+        color: #66BFBF;
+    }
+
+    .mid-container .profile p {
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+
+    }
+
+    .mid-container .skills h3 {
+        font-size: 30px;
+        font-family: 'Baloo 2', cursive;
+        color: #66BFBF;
+    }
+
+    .mid-container .skills p {
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    /* MID CONTAINER */
+
+    /* BOTTOM CONTAINER */
+
+    .contact-me {
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+        color: #40514E;
+    }
+
+    .bottom-container {
+        background-color: #E0EBE8;
+        padding: 50px 0 20px;
+    }
+
+    .bottom-container a {
+        color: #40514E;
+        font-family: 'Baloo 2', cursive;
+        text-decoration: none;
+        margin: 10px 20px;
+        font-size: 20px;
+    }
+
+    a:hover {
+        color: #EAF6F6;
+    }
+
+    .bottom-container h3 {
+        font-size: 30px;
+        font-family: 'Baloo 2', cursive;
+        color: #40514E;
+    }
+
+    .bottom-container p {
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+    }
+
+
+    .btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Baloo 2', cursive;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background: #30E3CB;
+        background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4ED);
+        background-image: -moz-linear-gradient(top, #30E3CB, #2BC4ED);
+        background-image: -ms-linear-gradient(top, #30E3CB, #2BC4ED);
+        background-image: -o-linear-gradient(top, #30E3CB, #2BC4ED);
+        background-image: linear-gradient(to bottom, #30E3CB, #2BC4ED);
+        text-decoration: none;
+    }
+
+
+
+    /* PICTURES */
+
+    .top-cloud {
+        position: absolute;
+        right: 300px;
+        top: 50px;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        left: 300px;
+        bottom: 300px;
+    }
+
+    .profile-pic {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .skill-pic {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .gaming-pic {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+        float: right;
+        margin-left: 30px;
+    }
+
+    .coding-pic {
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+        float: left;
+        margin-right: 30px;
+    }
+
+    /* PICTURES */
+
+    /* MAKE IT %50 */
+
+    .skill-row {
+        width: 50%;
+        margin: 100px auto 100px auto;
+        text-align: left;
+        line-height: 2;
+    }
+}
